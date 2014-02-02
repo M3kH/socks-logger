@@ -1,0 +1,20 @@
+{
+  "name": "Socks Logger",
+  "version": "0.0.1",
+  "description": "Simple Logging server for your applications, like a dirty socks.",
+  "main": "main.js",
+  "dependencies": {
+    "dnode": "~1.2.0",
+    "express": "~3.4.8",
+    "socket.io": "~0.9.16",
+    "backbone": "~1.1.0",
+    "bower": "~1.2.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "install": "cd ./app/ && bower install &"
+    "run": "node main.js"
+  },
+  "author": "Mauro Mandracchia <info@ideabile.com>",
+  "license": "MIT"
+}
