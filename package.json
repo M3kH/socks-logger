@@ -1,20 +1,47 @@
 {
-  "name": "Socks Logger",
-  "version": "0.0.1",
-  "description": "Simple Logging server for your applications, like a dirty socks.",
-  "main": "main.js",
-  "dependencies": {
-    "dnode": "~1.2.0",
-    "express": "~3.4.8",
-    "socket.io": "~0.9.16",
-    "backbone": "~1.1.0",
-    "bower": "~1.2.8"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "install": "cd ./app/ && bower install &"
-    "run": "node main.js"
-  },
-  "author": "Mauro Mandracchia <info@ideabile.com>",
-  "license": "MIT"
+   "name":"socks-logger",
+   "version":"0.0.1",
+   "description":"A Node.js Log Manager for application.",
+   "homepage":"https://github.com/m3kh/socks-logger/",
+   "keywords":[
+      "logs",
+      "logger",
+      "log",
+      "php",
+      "nodejs",
+      "dnode"
+   ],
+   "author":{
+      "name":"Mauro Mandracchia",
+      "email":"mauromandracchia@gmail.com",
+      "url":"http://www.ideabile.com/"
+   },
+   "repository":{
+      "type":"git",
+      "url":"git://github.com/m3kh/socks-logger"
+   },
+   "bugs":{
+      "web":"http://github.com/m3kh/socks-logger/issues/"
+   },
+   "directories":{
+      "test":"./test"
+   },
+   "dependencies":{
+      "dnode":"~1.2.0",
+      "express":"~3.4.8",
+      "socket.io":"~0.9.16",
+      "backbone":"~1.1.0",
+      "bower":"~1.2.8"
+   },
+   "devDependencies":{
+
+   },
+   "main":"./main.js",
+   "scripts":{
+      "install":"cd ./app/ && bower install &",
+      "run":"node main.js"
+   },
+   "bin":{
+
+   }
 }
