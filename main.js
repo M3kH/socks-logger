@@ -9,7 +9,7 @@ app.use(express.static(__dirname+"/app/"));
 
 var main = require('./app/main.js');
 main(app);
-server.listen(3000);
+server.listen(3232);
 
 io.sockets.on('connection', function (socket) {
 

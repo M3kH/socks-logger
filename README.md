@@ -13,3 +13,7 @@ bower install
 cd ../
 node main.js
 ```
+
+And Check-out: http://192.168.33.11:3232/
+
+See an Implementation with PHP and Dnode: [PHP-Socks](https://github.com/M3kH/PHP-Socks)
