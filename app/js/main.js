@@ -35,7 +35,7 @@
 
 		React.renderComponent(LoggerComponent( Logger ), $(".loggers")[0]);
 
-		var socket = io.connect('http://192.168.33.11');
+		var socket = io.connect('http://localhost');
 		var content = $('body > .container .loggers');
 
 
