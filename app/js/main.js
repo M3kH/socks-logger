@@ -3,11 +3,11 @@
 		baseUrl: '/',
 		paths:{
 			jsx: 'bower_components/require-jsx/jsx',
-			jquery: 'bower_components/jquery/jquery.min',
+			jquery: 'bower_components/jquery/dist/jquery.min',
 			JSXTransformer: 'bower_components/react/JSXTransformer',
 			react:  'bower_components/react/react',
 			backbone:  'bower_components/backbone/backbone',
-			underscore:  'bower_components/underscore/underscore-min',
+			underscore:  'bower_components/underscore/underscore',
 			socketio: '/socket.io/socket.io'
 		},
 		urlArgs: "v=" + (new Date()).getTime(),
@@ -16,7 +16,7 @@
 				deps: [ 'underscore', 'jquery'],
 				exports: 'Backbone'
 			},
-			undescore: {
+			underscore: {
 				exports: '_'
 			},
 			JSXTransformer: {
